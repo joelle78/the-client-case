@@ -1,1 +1,104 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+#title {
+  background-color: #158467;
+  color: #fff;
+}
 
+.container-fluid{
+  padding: 1% 10%;
+}
+
+/* Navigation bar */
+.navbar{
+  padding-bottom: 0.5rem;
+}
+
+ .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+
+ .nav-item{
+   padding: 0 18px;
+ }
+
+ .nav-link{
+   font-size: 1.2rem;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 100;
+ }
+
+/* Page 1 */
+ #live{
+   background-color: #EEF2E6;
+ }
+
+ .container-fluid2{
+   padding: 5% 0.5% 40% 0;
+ }
+
+ h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+   font-size: 2.5rem;
+   text-align: center;
+ }
+
+ .container-fluid3{
+   padding: 5% 0.5% 5% 0;
+ }
+
+/* Page 2 */
+ #howDoesItWorks{
+   background-color: #158467;
+   padding: 0 0 10% 0;
+ }
+
+ .container{
+   background-color: #EEF2E6;
+   padding: 0 0.5% 30% 0;
+   border-radius: 15px;
+ }
+
+/* Page 3 */
+ #vision{
+   background-color: #EEF2E6;
+ }
+
+ .container-fluid4{
+   padding: 5% 0.5% 7% 0;
+ }
+
+ .feature-box{
+   text-align: center;
+   padding: 3%;
+ }
+
+/* Vision pictures */
+ .planetEarthPicture{
+   width: 12em;
+
+ }
+
+ .heartbeatPicture{
+   width: 12em;
+ }
+
+ .supportPicture{
+   width: 12em;
+ }
+
+ h3 {
+   padding-top: 7%;
+   color: #2c2e65;
+ }
+
+/* Footer */
+ .footer {
+  background-color: #158467;
+ }
+
+ 
