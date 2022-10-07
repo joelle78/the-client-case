@@ -99,6 +99,5 @@ body{
 /* Footer */
  .footer {
   background-color: #158467;
+  grid-gap: 0px;
  }
-
- 
