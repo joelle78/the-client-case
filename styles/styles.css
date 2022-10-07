@@ -1,5 +1,6 @@
 body{
    font-family: 'Montserrat', sans-serif;
+   max-width: 100vw;
 }
 #title {
   background-color: #158467;
@@ -99,5 +100,4 @@ body{
 /* Footer */
  .footer {
   background-color: #158467;
-  gap: 0px;
  }
