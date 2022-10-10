@@ -10,6 +10,11 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles/styles.css">
+
+  <!-- JS -->
+  <script src="styles/script.js"></script>
+  </script>
+
 </head>
 
 <body>
@@ -56,9 +61,41 @@
     </div>
 
     <div class="container">
-      <p class="parReserveerStekje">Reserveer een stekje online<p>
-    </div>
-  </section>
+      <p class="parReserveerStekje">Reserveer een stekje online
+      <p>
+
+        <!-- A button to open the popup form -->
+        <button class="open-button" onclick="openForm()">Reserveer nu een stekje! 🪴</button>
+
+        <!-- The form -->
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <p>Contact gegevens</p>
+
+            <label for="email"><b>Naam</b></label>
+            <input type="text" placeholder="Voornaam + achternaam" name="name" required>
+
+            <label for="lastName"><b>Welk stekje </b></label>
+            <input type="text" placeholder="Welk stekje wil je reserveren?" name="lastName" required>
+
+            <label for="number"><b>Telefoonnummer</b></label>
+            <input type="text" placeholder="Telefoonnummer" name="number" required>
+
+            <label for="email"><b>E-mail</b></label>
+            <input type="text" placeholder="E-mail" name="email" required>
+
+            <label for="pickUp"><b>Wanneer ophalen</b></label>
+            <input type="text" placeholder="Wanneer ophalen?" name="pickUp" required>
+
+            <label for="plant"><b>Jou stekje</b></label>
+            <input type="text" placeholder="Welk stekje ruil je om?" name="plant" required>
+
+            <button type="submit" class="btn">Reserveer je stekje</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+      </section>
+
 
   <!-- section 3 -->
   <section id="vision">
@@ -67,84 +104,82 @@
     <div class="container-fluid4">
       <div class="row align-items-center">
         <div class="col-lg-4 visionCards">
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img class="img-fluid heartbeatImage" src="assets/heartbeat.png" alt="heartbeat">
-          <h3>Vitaliteit</h3>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="img-fluid heartbeatImage" src="assets/heartbeat.png" alt="heartbeat">
+                <h3>Vitaliteit</h3>
+              </div>
+              <div class="flip-card-back">
+                <p class="parVitaliteit">Gezond en vitaal zijn is belangrijk voor iedereen. In een wijk waarin mensen met verschillende leeftijden en achtergronden wonen varieert de mate van gezondheid.
+                  De studenten, buurtbewoners en organisaties van Buurtcampus Oost zijn zich bewust van deze variatie en willen inspelen op de specifieke behoeften van bewoners.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="flip-card-back">
-          <p class="parVitaliteit">Gezond en vitaal zijn is belangrijk voor iedereen. In een wijk waarin mensen met verschillende leeftijden en achtergronden wonen varieert de mate van gezondheid.
-            De studenten, buurtbewoners en organisaties van Buurtcampus Oost zijn zich bewust van deze variatie en willen inspelen op de specifieke behoeften van bewoners.</p>
-        </div>
-      </div>
-    </div>
-    </div>
 
 
 
 
-     <!-- planetEarthImage -->
+        <!-- planetEarthImage -->
         <div class="col-lg-4 visionCards">
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img class="img-fluid planetEarthImage" src="assets/planet-earth.png" alt="planet-earth">
-          <h3>Duurzaamheid</h3>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="img-fluid planetEarthImage" src="assets/planet-earth.png" alt="planet-earth">
+                <h3>Duurzaamheid</h3>
+              </div>
+              <div class="flip-card-back">
+                <p class="parDuurzamheid">De studenten van Buurtcampus Oost werken samen met bewoners en organisaties uit de buurt aan het realiseren van de klimaatambities van Amsterdam samen met de buurtbewoners.
+                  Hoe zorg je ervoor dat duurzaamheid meer urgentie krijgt bij alle bewoners? Welke uitdagingen kom je hierbij tegen? En hoe kun je (kwetsbare) bewoners beter betrekken bij een duurzame wijk?</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="flip-card-back">
-          <p class="parDuurzamheid">De studenten van Buurtcampus Oost werken samen met bewoners en organisaties uit de buurt aan het realiseren van de klimaatambities van Amsterdam samen met de buurtbewoners.
-            Hoe zorg je ervoor dat duurzaamheid meer urgentie krijgt bij alle bewoners? Welke uitdagingen kom je hierbij tegen? En hoe kun je (kwetsbare) bewoners beter betrekken bij een duurzame wijk?</p>
+
+        <!-- supportImage -->
+        <div class="col-lg-4 visionCards">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="img-fluid supportImage" src="assets/support.png" alt="support">
+                <h3>Samenwerken</h3>
+              </div>
+              <div class="flip-card-back">
+                <p class="parSamenwerken">De samenwerking tussen formele en informele organisaties in zorg en welzijn wordt steeds belangrijker.
+                  Dit is nog niet zo makkelijk en vraagt om nieuwe manieren van werken.
+                  De studenten van Buurtcampus Oost werken samen met bewoners en organisaties uit de buurt aan de vernieuwing van de dagelijkse praktijk van zorg en welzijn in Amsterdam Oost.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-
-  <!-- supportImage -->
-     <div class="col-lg-4 visionCards">
- <div class="flip-card">
-   <div class="flip-card-inner">
-     <div class="flip-card-front">
-       <img class="img-fluid supportImage" src="assets/support.png" alt="support">
-       <h3>Samenwerken</h3>
-     </div>
-     <div class="flip-card-back">
-       <p class="parSamenwerken">De samenwerking tussen formele en informele organisaties in zorg en welzijn wordt steeds belangrijker.
-         Dit is nog niet zo makkelijk en vraagt om nieuwe manieren van werken.
-         De studenten van Buurtcampus Oost werken samen met bewoners en organisaties uit de buurt aan de vernieuwing van de dagelijkse praktijk van zorg en welzijn in Amsterdam Oost.</p>
-
-     </div>
-   </div>
- </div>
- </div>
- </div>
- </div>
 
 
+  </section>
 
-</section>
 
-
-    <!-- Footer -->
-    <footer class="footer mt-auto py-3">
-      <div class="container-footer">
-
-        <div class="row">
-          <div class="col footer">
-            <img class="img-fluid footerImage" src="assets/buurtCampusFooter.svg" alt="footerBuurtCampus">
-          </div>
-          <div class="col footer">
-            <img class="img-fluid footerImage2" src="assets/buurtCampusFooter.svg" alt="footerBuurtCampus">
-          </div>
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3">
+    <div class="container-footer">
+      <div class="row">
+        <div class="col footer">
+          <img class="img-fluid footerImage" src="assets/buurtCampusFooter.svg" alt="footerBuurtCampus">
         </div>
-        <div class="row">
+        <div class="col footer">
+          <img class="img-fluid footerImage2" src="assets/buurtCampusFooter.svg" alt="footerBuurtCampus">
         </div>
-    </footer>
+      </div>
+      <div class="row">
+      </div>
+      </div>
+  </footer>
 
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 
 </body>
