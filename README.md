@@ -37,6 +37,8 @@ Als framework heb ik Bootstrap gebruikt. Dit is een open source front-end develo
 Hiermee kan je gemakkelijk je elementen responsive maken.
 
 ## Bronnen
+https://www.buurtcampusoost.nl/s/
+https://github.com/fdnd-agency
 
 ## Licentie
 
