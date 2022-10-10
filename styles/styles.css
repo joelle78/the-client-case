@@ -137,9 +137,9 @@ margin-bottom:10px;
 opacity: 0.8;
 }
 
-/* Add a red background color to the cancel button */
+/* Give close button a color */
 .form-container .cancel {
-background-color: red;
+background-color: #ef672e;
 }
 
 /* Add some hover effects to buttons */
@@ -203,7 +203,6 @@ h3 {
  /* The flip card container  */
 .flip-card {
   background-color: transparent;
-  border: none;
   margin: auto;
   width: 300px;
   height: 300px;
