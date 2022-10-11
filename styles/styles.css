@@ -1,195 +1,190 @@
-body{
-   font-family: 'Montserrat', sans-serif;
-    max-width: 100vw;
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 100vw;
 }
+
 #title {
   background-color: #158467;
   color: #fff;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 1% 10%;
 }
 
 /* Navigation bar */
-.navbar{
+.navbar {
   padding-bottom: 0.5rem;
 }
 
-.logoNav{
+.logoNav {
   width: 2em;
 }
 
- .navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
- }
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
- .nav-item{
-   padding: 0 18px;
- }
+.nav-item {
+  padding: 0 18px;
+}
 
- .nav-link{
-   font-size: 1.2rem;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 100;
- }
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
 
 /* Section 1 */
- #live{
-   background-color: #EEF2E6;
- }
+#live {
+  background-color: #EEF2E6;
+}
 
- .container-fluid2{
-   padding: 5% 0.5% 40% 0;
- }
+.container-fluid2 {
+  padding: 5% 0.5% 40% 0;
+}
 
- h1 {
-   font-family: 'Montserrat', sans-serif;
-   color: #2c2e65;
-   font-weight: 800;
-   font-size: 2.5rem;
-   text-align: center;
- }
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2c2e65;
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: center;
+}
 
- .container-fluid3{
-   padding: 5% 0.5% 5% 0;
- }
+.container-fluid3 {
+  padding: 5% 0.5% 5% 0;
+}
 
 /* Section 2 */
- #howDoesItWorks{
-   background-color: #158467;
-   padding: 0 0 10% 0;
- }
+#howDoesItWorks {
+  background-color: #158467;
+  padding: 0 0 10% 0;
+}
 
- h2 {
-   font-size: 2.5rem;
-   color: white;
-   text-align: center;
- }
+h2 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
 
- .container{
-   background-color: #EEF2E6;
-   padding: 0 0.5% 30% 0;
-   border-radius: 15px;
- }
+.container {
+  background-color: #EEF2E6;
+  padding: 0 0.5% 30% 0;
+  border-radius: 15px;
+}
 
 /* CAROUSEL */
-
-.carouselImagePlant{
+.carouselImagePlant {
   width: 12em;
 }
 
-.carouselImageGrowth{
+.carouselImageGrowth {
   width: 12em;
 }
 
-.carouselImageTrade{
+.carouselImageTrade {
   width: 12em;
 }
 
-.carouselImageExcited{
+.carouselImageExcited {
   width: 12em;
 }
-
-
-
 
 /* Form */
-
 /* Button used to open the contact form*/
 .open-button {
-background-color: #ef672e;
-color: white;
-padding: 16px 20px;
-border: none;
-cursor: pointer;
-position: fixed;
-bottom: 23px;
-right: 28px;
-width: 280px;
+  background-color: #ef672e;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
 }
 
 /* The popup form - hidden by default */
 .form-popup {
-display: none;
-position: fixed;
-bottom: 0;
-right: 15px;
-border: 3px solid #f1f1f1;
-z-index: 10;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 10;
 }
 
 /* Add styles to the form container */
 .form-container {
-max-width: 300px;
-padding: 10px;
-background-color: white;
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
 }
 
 /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=text] {
-width: 100%;
-padding: 15px;
-margin: 5px 0 22px 0;
-border: none;
-background: #f1f1f1;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
 }
 
 /* When the inputs get focus, do something */
 .form-container input[type=text]:focus, .form-container input[type=text]:focus {
-background-color: #ddd;
-outline: none;
+  background-color: #ddd;
+  outline: none;
 }
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-background-color: #158467;
-color: white;
-padding: 16px 20px;
-border: none;
-cursor: pointer;
-width: 100%;
-margin-bottom:10px;
-opacity: 0.8;
+  background-color: #158467;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
 }
 
 /* Give close button a color */
 .form-container .cancel {
-background-color: #ef672e;
+  background-color: #ef672e;
 }
 
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
-opacity: 1;
+  opacity: 1;
 }
 
 /* Section 3 */
- #vision{
-   background-color: #EEF2E6;
- }
+#vision {
+  background-color: #EEF2E6;
+}
 
- .visionCards{
-   padding: 4%;
+.visionCards {
+  padding: 4%;
+}
 
- }
+.container-fluid4 {
+  /* padding: 5% 0.5% 7% 0; */
+}
 
- .container-fluid4{
-   /* padding: 5% 0.5% 7% 0; */
- }
-
-.heartbeatImage{
+.heartbeatImage {
   width: 12em;
   padding-top: 10%;
 }
 
-.planetEarthImage{
+.planetEarthImage {
   width: 12em;
   padding-top: 10%;
 }
 
-.supportImage{
+.supportImage {
   width: 12em;
   padding-top: 10%;
 }
@@ -199,10 +194,9 @@ h3 {
   color: #2c2e65;
 }
 
-.parVitaliteit{
+.parVitaliteit {
   text-align: left;
   padding: 8% 0 0 3%;
-
 }
 
 .parDuurzamheid {
@@ -210,15 +204,13 @@ h3 {
   padding: 4% 0 0 3%;
 }
 
-.parSamenwerken{
+.parSamenwerken {
   text-align: left;
   padding: 8% 0 0 3%;
 }
 
-
 /* Card flip */
-
- /* The flip card container  */
+/* The flip card container  */
 .flip-card {
   background-color: transparent;
   margin: auto;
@@ -226,7 +218,6 @@ h3 {
   height: 300px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
-
 }
 
 /*position the front and back side */
@@ -238,7 +229,6 @@ h3 {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
 }
 
 /* Do an horizontal flip*/
@@ -251,17 +241,16 @@ h3 {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
+  /* Safari */
   backface-visibility: hidden;
   border-radius: 10%;
-
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   /* background-color: #bbb; */
   color: black;
-
 }
 
 /* Style the back side */
@@ -271,8 +260,7 @@ h3 {
   transform: rotateY(180deg);
 }
 
-
 /* Footer */
- .footer {
+.footer {
   background-color: #158467;
 }

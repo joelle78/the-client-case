@@ -5,6 +5,11 @@
   <meta charset="utf-8">
   <title>Stekjes bibliotheek</title>
 
+  <!-- Favicon -->
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAL72LABtjhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIgAAAAAAAiIiIAAAAAACIiIgAAAAAAIiIiAAAAAAAiIiIAAAAAAiIiIiAAAAACIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERAAAAAAAAABEQAAAAAAAAAAAAABEQAAAAAAAAAREAAAAAAAAAAAD4HwAA+B8AAPAPAADwDwAA8A8AAPAPAADgBwAA4AcAAOAHAAD+/wAAjv8AAAV/AACDhwAAx4MAAP/BAAD/4wAA"
+    rel="icon" type="image/x-icon" />
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
@@ -13,15 +18,6 @@
 
   <!-- Swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
-
-
-
-
-
-
-
-
 </head>
 
 <body>
@@ -53,7 +49,7 @@
     </div>
   </section>
 
-  <!-- Section 1 -->
+  <!-- SECTION 1 -->
   <section id="live">
     <div class="container-fluid2">
 
@@ -62,7 +58,7 @@
 
   </section>
 
-  <!-- Section 2 -->
+  <!-- SECTION 2 -->
   <section id="howDoesItWorks">
     <div class="container-fluid3">
       <h2>Hoe werkt het?</h2>
@@ -70,70 +66,68 @@
 
     <div class="container">
 
-
-<!-- CAROUSEL -->
-<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="carouselImagePlant"src="assets/plant.png" class="d-block" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImageGrowth" src="assets/growth.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImageTrade"src="assets/trade.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImageExcited"src="assets/excited.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-
-        <!-- RESERVEER JE STEKJE FORM -->
-
-        <!-- A button to open the popup form -->
-        <button class="open-button" onclick="openForm()">Reserveer nu een stekje! 🪴</button>
-
-        <!-- The form -->
-        <div class="form-popup" id="myForm">
-          <form action="/action_page.php" class="form-container">
-            <p>Contact gegevens</p>
-
-            <label for="email"><b>Naam</b></label>
-            <input type="text" placeholder="Voornaam + achternaam" name="name" required>
-
-            <label for="lastName"><b>Welk stekje </b></label>
-            <input type="text" placeholder="Welk stekje wil je reserveren?" name="lastName" required>
-
-            <label for="number"><b>Telefoonnummer</b></label>
-            <input type="text" placeholder="Telefoonnummer" name="number" required>
-
-            <label for="email"><b>E-mail</b></label>
-            <input type="text" placeholder="E-mail" name="email" required>
-
-            <label for="pickUp"><b>Wanneer ophalen</b></label>
-            <input type="text" placeholder="Wanneer ophalen?" name="pickUp" required>
-
-            <label for="plant"><b>Jou stekje</b></label>
-            <input type="text" placeholder="Welk stekje ruil je om?" name="plant" required>
-
-            <button type="submit" class="btn">Reserveer je stekje</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-          </form>
+      <!-- CAROUSEL -->
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="carouselImagePlant" src="assets/plant.png" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="carouselImageGrowth" src="assets/growth.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="carouselImageTrade" src="assets/trade.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="carouselImageExcited" src="assets/excited.png" class="d-block w-100" alt="...">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- RESERVEER JE STEKJE FORM -->
+
+    <!-- A button to open the popup form -->
+    <button class="open-button" onclick="openForm()">Reserveer nu een stekje! 🪴</button>
+
+    <!-- The form -->
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <p>Contact gegevens</p>
+
+        <label for="email"><b>Naam</b></label>
+        <input type="text" placeholder="Voornaam + achternaam" name="name" required>
+
+        <label for="lastName"><b>Welk stekje </b></label>
+        <input type="text" placeholder="Welk stekje wil je reserveren?" name="lastName" required>
+
+        <label for="number"><b>Telefoonnummer</b></label>
+        <input type="text" placeholder="Telefoonnummer" name="number" required>
+
+        <label for="email"><b>E-mail</b></label>
+        <input type="text" placeholder="E-mail" name="email" required>
+
+        <label for="pickUp"><b>Wanneer ophalen</b></label>
+        <input type="text" placeholder="Wanneer ophalen?" name="pickUp" required>
+
+        <label for="plant"><b>Jou stekje</b></label>
+        <input type="text" placeholder="Welk stekje ruil je om?" name="plant" required>
+
+        <button type="submit" class="btn">Reserveer je stekje</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
   </section>
 
-
-  <!-- section 3 -->
+  <!-- SECTION 3 -->
   <section id="vision">
 
     <!-- heartbeatImage -->
@@ -153,9 +147,6 @@
             </div>
           </div>
         </div>
-
-
-
 
         <!-- planetEarthImage -->
         <div class="col-lg-4 visionCards">
@@ -193,7 +184,6 @@
     </div>
   </section>
 
-
   <!-- Footer -->
   <footer class="footer mt-auto py-3">
     <div class="container-footer">
@@ -208,13 +198,8 @@
     </div>
   </footer>
 
-
-
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
   <!-- JS -->
   <script src="styles/script.js"></script>
-
-
-  <!-- Swiper -->
