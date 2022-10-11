@@ -75,10 +75,28 @@ body{
    border-radius: 15px;
  }
 
+/* CAROUSEL */
+
+.carouselImagePlant{
+  width: 12em;
+}
+
+.carouselImageGrowth{
+  width: 12em;
+}
+
+.carouselImageTrade{
+  width: 12em;
+}
+
+.carouselImageExcited{
+  width: 12em;
+}
+
+
+
 
 /* Form */
-
- /* {box-sizing: border-box;} */
 
 /* Button used to open the contact form*/
 .open-button {

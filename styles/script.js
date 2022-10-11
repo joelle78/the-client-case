@@ -1,3 +1,6 @@
+// swiper
+const carousel = new bootstrap.Carousel('#myCarousel')
+
 // Pop up form
 
 function openForm() {
