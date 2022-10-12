@@ -29,6 +29,9 @@ Bij de icons met de text: duurzaamheid, vitaliteit en samenwerken kan men zien w
 op een van de "kaartjes" flipt die om, en word dit uitgelegd.
 
 <!-- Voeg een mooie poster visual toe 📸 -->
+![alt text](assets/section1.png)
+
+![alt text](assets/section2.png)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 https://github.com/joelle78/the-client-case/wiki
