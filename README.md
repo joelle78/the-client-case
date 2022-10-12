@@ -16,6 +16,8 @@ De opdracht van deze sprint is het maken van een component/website voor een bedr
 
 Buurtcampus Oost had verschillende user stories opgesteld. Aan ons was de keuze een user story te kiezen en deze sprint aan te werken. Mijn keuze was gevallen voor: het ruilproces van stekjes.
 
+![alt text](assets/userstory.png)
+
 Om weer te geven wat voor stekjes er beschikbaar zijn was mijn idee een webcam/camera op de stekjes bibliotheek te richten. Met een live stream is iedereen
 up to date welke stekjes er zijn, dit is ook leuk dat het groeiproces van de stekjes gezien kan worden.
 
