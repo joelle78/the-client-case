@@ -22,8 +22,8 @@ Om weer te geven wat voor stekjes er beschikbaar zijn was mijn idee een webcam/c
 up to date welke stekjes er zijn, dit is ook leuk dat het groeiproces van de stekjes gezien kan worden.
 
 Onder de header: hoe werkt het? Kunnen de bezoekers zien hoe het ruilproces werkt. Men reserveert een stekje, neemt een ander stekje mee. Bij de buurt campus
-kan het stekje worden omgeruild. Hiermee hebben ze een bijdrage geleverd met verspilling van planten tegen te gaan. Via de link reserveer een stekje, kan
-men een formulier invullen om het desbetreffende stekje te reserveren.
+kan het stekje worden omgeruild. Hiermee hebben ze een bijdrage geleverd met verspilling van planten tegen te gaan. Via de link reserveer je een stekje, je kan
+een formulier invullen om het desbetreffende stekje te reserveren.
 
 Bij de icons met de text: duurzaamheid, vitaliteit en samenwerken kan men zien wat de doelstellingen zijn van Buurtcampus Oost. Als je hovert met je muis
 op een van de "kaartjes" flipt die om, en word dit uitgelegd.
@@ -36,12 +36,12 @@ op een van de "kaartjes" flipt die om, en word dit uitgelegd.
 ![alt text](assets/s3.png)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
+Mijn Github-pages:
 https://github.com/joelle78/the-client-case/wiki
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framework of library gebruikt? -->
-Als framework heb ik Bootstrap gebruikt. Dit is een open source front-end development framework voor het maken van websites of applicaties.
-Hiermee kan je gemakkelijk je elementen responsive maken.
+Als framework heb ik Bootstrap gebruikt. Dit is een open source front-end development framework voor het maken van websites of applicaties. Hiermee kan je gemakkelijk je elementen responsive maken.
 
 ## Bronnen
 https://www.buurtcampusoost.nl/s/
