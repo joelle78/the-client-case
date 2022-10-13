@@ -22,7 +22,7 @@ Om weer te geven wat voor stekjes er beschikbaar zijn was mijn idee een webcam/c
 up to date welke stekjes er zijn, dit is ook leuk dat het groeiproces van de stekjes gezien kan worden.
 
 Onder de header: hoe werkt het? Kunnen de bezoekers zien hoe het ruilproces werkt. Men reserveert een stekje, neemt een ander stekje mee. Bij de buurt campus
-kan het stekje worden omgeruild. Hiermee hebben ze een bijdrage geleverd met verspilling van planten tegen te gaan. Via de link reserveer je een stekje, je kan
+kan het stekje worden omgeruild. Hiermee hebben ze een bijdrage geleverd met verspilling van planten tegen te gaan. Via de button: reserveer nu een stekje. Kan je een stekje reserveren. Hierbij komt er een popup formulier tevoorschijn.
 een formulier invullen om het desbetreffende stekje te reserveren.
 
 Bij de icons met de text: duurzaamheid, vitaliteit en samenwerken kan men zien wat de doelstellingen zijn van Buurtcampus Oost. Als je hovert met je muis
@@ -46,6 +46,7 @@ Als framework heb ik Bootstrap gebruikt. Dit is een open source front-end develo
 ## Bronnen
 https://www.buurtcampusoost.nl/s/
 https://github.com/fdnd-agency
+https://getbootstrap.com/
 
 ## Licentie
 
