@@ -23,7 +23,6 @@ up to date welke stekjes er zijn, dit is ook leuk dat het groeiproces van de ste
 
 Onder de header: hoe werkt het? Kunnen de bezoekers zien hoe het ruilproces werkt. Men reserveert een stekje, neemt een ander stekje mee. Bij de buurt campus
 kan het stekje worden omgeruild. Hiermee hebben ze een bijdrage geleverd met verspilling van planten tegen te gaan. Via de button: reserveer nu een stekje. Kan je een stekje reserveren. Hierbij komt er een popup formulier tevoorschijn.
-een formulier invullen om het desbetreffende stekje te reserveren.
 
 Bij de icons met de text: duurzaamheid, vitaliteit en samenwerken kan men zien wat de doelstellingen zijn van Buurtcampus Oost. Als je hovert met je muis
 op een van de "kaartjes" flipt die om, en word dit uitgelegd.
