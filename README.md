@@ -43,9 +43,10 @@ https://github.com/joelle78/the-client-case/wiki
 Als framework heb ik Bootstrap gebruikt. Dit is een open source front-end development framework voor het maken van websites of applicaties. Hiermee kan je gemakkelijk je elementen responsive maken.
 
 ## Bronnen
-https://www.buurtcampusoost.nl/s/
-https://github.com/fdnd-agency
-https://getbootstrap.com/
+https://www.buurtcampusoost.nl/s/ <br>
+https://github.com/fdnd-agency <br>
+https://getbootstrap.com/ <br>
+https://developer.mozilla.org/en-US/
 
 ## Licentie
 
