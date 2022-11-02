@@ -409,10 +409,13 @@ h5 {
 /* Workshops page */
 
 /* Agenda content */
+#agendaContent{
+  background-color: #EEF2E6;
+}
 
 /* > = all the directive divs in the wrapper */
 .wrapper > div{
-  background: #eee;
+  background: white;
   padding: 1em;
 
 }
@@ -425,21 +428,22 @@ h5 {
 /* Grid */
 .wrapper {
   display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+  justify-items: stretch;
 }
 
 .header {
-  grid-column: 1/3;
-  grid-row: 1/3;
+grid-column: 1/3;
 }
 
 .filter {
-  grid-column: 1/3;
-  grid-row: 3/3;
+grid-column: 0/3;
+grid-row: 2/3;
 
 }
 
-.agenda {
+.content {
   grid-column: 2/3;
-  grid-row: 3/3;
 
 }
