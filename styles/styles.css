@@ -450,5 +450,17 @@ grid-row: 2/3;
 }
 
 .workshopImage{
-  width: 20em;
+  width: 80%;
+  height: auto;
 }
+
+.parWorkshops {
+  font-size: 1vw;
+}
+
+.h3Workshops {
+  font-size: 2.5vw;
+}
+
+@media screen and (min-width: 1020px)
+.wrapper {
