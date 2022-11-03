@@ -58,19 +58,22 @@
         <h1 class="h1Workshops">Agenda</h1>
       </div>
 
-      <!-- Filter -->
+      <!-- Filter button -->
       <div class="filter">
         <div class="containerFilter">
-          <!-- RESERVEER JE STEKJE FORM -->
 
           <!-- A button to open the popup form -->
           <button class="open-button2" onclick="openForm2()">Filter</button>
           <!-- The form -->
           <div class="form-popup2" id="myForm2">
             <form action="/action_page.php" class="form-container2">
-              <label for="email"><b>Zoekopdracht</b></label>
-              <input type="text" placeholder="Zoeken" name="zoeken" required>
 
+              <div class="searchTitel">
+                <label for="text"><b>Zoekopdracht</b></label>
+                <input type="text" placeholder="Zoeken" name="zoeken" required>
+              </div>
+
+              <p>Filter op maand:</p>
               <div class="checkboxes">
                 <input type="checkbox" id="jan" name="januari" value="Januari">
                 <label for="januari"> januari</label><br>
@@ -136,102 +139,140 @@
           <h3 class="h3Workshops">Maak een zelfvoorzienend ecosysteem</h3>
           <p class="parWorkshops">Wanneer: 04/11/2022 <br>Hoelaat: 14:30 t/m 16:30</p>
           <p class="parWorkshops">Dames en heren, haal jullie groene vingers maar vast uit de kast!
-            Ook altijd al een zelfvoorzienend ecosysteem willen maken? Meld je dan nu aan met de link hieronder.</p>
-          <p class="parWorkshops">Meld je hier aan!</p>
+            Ook altijd al een zelfvoorzienend ecosysteem willen maken? Meld je dan nu aan met de knop hieronder.</p>
+
+
+          <!-- Filter button -->
+          <div class="filter">
+            <div class="containerFilter">
+
+              <!-- A button to open the popup form -->
+              <button class="open-button3" onclick="openForm3()">Meld je aan!</button>
+              <!-- The form -->
+              <div class="form-popup3" id="myForm3">
+                <form action="/action_page.php" class="form-container3">
+
+                  <div class="searchTitel">
+
+                    <label for="text"><b>Naam</b></label>
+                    <input type="text" placeholder="Voornaam + achternaam" name="name" required>
+
+                    <label for="email"><b>E-mail</b></label>
+                    <input type="email" placeholder="E-mail" name="email" required>
+
+                    <label for="number"><b>E-mail</b></label>
+                    <input type="number" placeholder="Telefoonnummer" name="number" required>
+
+                    <label for="text"><b>Workshop</b></label>
+                    <input type="text" placeholder="Welke workshop?" name="name" required>
+
+                    <button type="submit3" class="btn3">Reserveer je stekje</button>
+                    <button type="button3" class="btn cancel3" onclick="closeForm3()">Close</button>
+                </form>
+              </div>
+
+
+
+            </div>
+          </div>
         </div>
+
+
+
+      </div>
+    </div>
+
+    <!-- Workshop 2 -->
+    <div class="content">
+      <div class="containerImage">
+        <img class="workshopImage " src="assets/workshops1.jpeg" alt="">
       </div>
 
-      <!-- Workshop 2 -->
-      <div class="content">
-        <div class="containerImage">
-          <img class="workshopImage " src="assets/workshops1.jpeg" alt="">
-        </div>
+      <div class="containerContent">
+        <h3 class="h3Workshops">Hang a plant</h3>
+        <p class="parWorkshops">Hier komt de content van de workshops</p>
+      </div>
+    </div>
 
-        <div class="containerContent">
-          <h3 class="h3Workshops">Hang a plant</h3>
-          <p class="parWorkshops">Hier komt de content van de workshops</p>
-        </div>
+    <!-- Workshop 3 -->
+    <div class="content">
+      <div class="containerImage">
+        <img class="workshopImage " src="assets/workshop3.png" alt="">
       </div>
 
-      <!-- Workshop 3 -->
-      <div class="content">
-        <div class="containerImage">
-          <img class="workshopImage " src="assets/workshop3.png" alt="">
-        </div>
+      <div class="containerContent">
+        <h3 class="h3Workshops">Terrarium Therapy</h3>
+        <p class="parWorkshops">Hier komt de content van de workshops</p>
+      </div>
+    </div>
 
-        <div class="containerContent">
-          <h3 class="h3Workshops">Terrarium Therapy</h3>
-          <p class="parWorkshops">Hier komt de content van de workshops</p>
-        </div>
+    <!-- Workshop 4 -->
+    <div class="content">
+      <div class="containerImage">
+        <img class="workshopImage " src="assets/workshop4.jpeg" alt="">
       </div>
 
-      <!-- Workshop 4 -->
-      <div class="content">
-        <div class="containerImage">
-          <img class="workshopImage " src="assets/workshop4.jpeg" alt="">
-        </div>
+      <div class="containerContent">
+        <h3 class="h3Workshops">Kweken deze weken</h3>
+        <p class="parWorkshops">Hier komt de content van de workshops</p>
+      </div>
+    </div>
 
-        <div class="containerContent">
-          <h3 class="h3Workshops">Kweken deze weken</h3>
-          <p class="parWorkshops">Hier komt de content van de workshops</p>
-        </div>
+    <!-- Maand -->
+    <div class="content">
+      <div class="">
+        <h3 class="h3Workshops">December</h3>
+        <hr>
+      </div>
+    </div>
+
+
+    <!-- Workshop 5 -->
+    <div class="content">
+      <div class="containerImage">
+        <img class="workshopImage " src="assets/workshop8.jpeg" alt="">
       </div>
 
-      <!-- Maand -->
-      <div class="content">
-        <div class="">
-          <h3 class="h3Workshops">December</h3>
-          <hr>
-        </div>
+      <div class="containerContent">
+        <h3 class="h3Workshops">Cut it</h3>
+        <p class="parWorkshops">Hier komt de content van de workshops</p>
       </div>
+    </div>
 
-
-      <!-- Workshop 5 -->
-      <div class="content">
-        <div class="containerImage">
-          <img class="workshopImage " src="assets/workshop8.jpeg" alt="">
-        </div>
-
-        <div class="containerContent">
-          <h3 class="h3Workshops">Cut it</h3>
-          <p class="parWorkshops">Hier komt de content van de workshops</p>
-        </div>
+    <!-- Workshop 6 -->
+    <div class="content">
+      <div class="containerImage">
+        <img class="workshopImage " src="assets/workshop6.png" alt="">
       </div>
-
-      <!-- Workshop 6 -->
-      <div class="content">
-        <div class="containerImage">
-          <img class="workshopImage " src="assets/workshop6.png" alt="">
-        </div>
-        <div class="containerContent">
-          <h3 class="h3Workshops">Droogbloemen</h3>
-          <p class="parWorkshops">Hier komt de content van de workshops</p>
-        </div>
+      <div class="containerContent">
+        <h3 class="h3Workshops">Droogbloemen</h3>
+        <p class="parWorkshops">Hier komt de content van de workshops</p>
       </div>
+    </div>
 
-      <!-- Workshop 7-->
-      <div class="content">
-        <div class="containerImage">
-          <img class="workshopImage " src="assets/workshop7.jpeg" alt="">
-        </div>
-        <div class="containerContent">
-          <h3 class="h3Workshops">HO HO HO,<br>
-            kerstkransen maken doe je zo</h3>
-          <p class="parWorkshops">Hier komt de content van de workshops</p>
-        </div>
+    <!-- Workshop 7-->
+    <div class="content">
+      <div class="containerImage">
+        <img class="workshopImage " src="assets/workshop7.jpeg" alt="">
       </div>
-
-
-      <!-- Workshop 8 -->
-      <div class="content">
-        <div class="containerImage">
-          <img class="workshopImage " src="assets/workshop5.jpeg" alt="">
-        </div>
-        <div class="containerContent">
-          <h3 class="h3Workshops">What is under your christmas tree</h3>
-          <p class="parWorkshops">Hier komt de content van de workshops</p>
-        </div>
+      <div class="containerContent">
+        <h3 class="h3Workshops">HO HO HO,<br>
+          kerstkransen maken doe je zo</h3>
+        <p class="parWorkshops">Hier komt de content van de workshops</p>
       </div>
+    </div>
+
+
+    <!-- Workshop 8 -->
+    <div class="content">
+      <div class="containerImage">
+        <img class="workshopImage " src="assets/workshop5.jpeg" alt="">
+      </div>
+      <div class="containerContent">
+        <h3 class="h3Workshops">What is under your christmas tree</h3>
+        <p class="parWorkshops">Hier komt de content van de workshops</p>
+      </div>
+    </div>
     </div>
 
   </section>
