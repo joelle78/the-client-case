@@ -2,14 +2,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   max-width: 100vw;
   overflow-x: hidden;
-
 }
 
 #title {
   background-color: #158467;
   color: #fff;
 }
-
 
 /* Navigation bar */
 .navbContainer {
@@ -49,7 +47,7 @@ body {
   padding: 5% 0.5% 0 0;
 }
 
-.embed-responsive-item{
+.embed-responsive-item {
   max-height: 60%;
   max-width: 60%;
   margin-left: 20%;
@@ -64,15 +62,13 @@ h1 {
   text-align: center;
 }
 
-
-
 /* Section 2 */
 #howDoesItWorks {
   background-color: #158467;
   padding-bottom: 10%;
 }
 
-.howContainer{
+.howContainer {
   padding: 5% 0.5% 5% 0;
 }
 
@@ -82,7 +78,6 @@ h2 {
   text-align: center;
 }
 
-
 /* CAROUSEL */
 .carouselContainer {
   background-color: #EEF2E6;
@@ -91,18 +86,17 @@ h2 {
   border-radius: 15px;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
   background-color: #2c2e65;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   background-color: #2c2e65;
 }
 
 .parRight {
   /* Make a responsive fontsize */
   font-size: 2vw;
-
   text-align: left;
   max-width: 30%;
   float: right;
@@ -114,7 +108,6 @@ h2 {
 .parLeft {
   /* Make a responsive fontsize */
   font-size: 2vw;
-
   text-align: left;
   max-width: 30%;
   float: inherit;
@@ -126,7 +119,6 @@ h2 {
 .parLeftJeej {
   /* Make a responsive fontsize */
   font-size: 2vw;
-
   text-align: left;
   max-width: 40%;
   float: inherit;
@@ -139,7 +131,6 @@ h2 {
   /* Make image responsive */
   max-width: 20%;
   height: auto;
-
   padding-top: 20%;
   padding-bottom: 20%;
   margin-left: 20%;
@@ -150,7 +141,6 @@ h2 {
   /* Make image responsive */
   max-width: 20%;
   height: auto;
-
   padding-top: 20%;
   padding-bottom: 20%;
   margin-right: 20%;
@@ -161,7 +151,6 @@ h2 {
   /* Make image responsive */
   max-width: 20%;
   height: auto;
-
   padding-top: 20%;
   padding-bottom: 20%;
   margin-left: 20%;
@@ -172,7 +161,6 @@ h2 {
   /* Make image responsive */
   max-width: 20%;
   height: auto;
-
   padding-top: 20%;
   padding-bottom: 20%;
   margin-right: 15%;
@@ -244,6 +232,7 @@ h2 {
   border: none;
   background: #f1f1f1;
 }
+
 /* When the inputs get focus, do something */
 .form-container input[type=text]:focus, .form-container input[type=text]:focus {
   background-color: #ddd;
@@ -297,7 +286,6 @@ h2 {
 }
 
 /* VISIE */
-
 .heartbeatImage {
   width: 12em;
   padding-top: 10%;
@@ -407,22 +395,14 @@ h5 {
 }
 
 /* Workshops page */
-
 /* Agenda content */
-#agendaContent{
+#agendaContent {
   background-color: #EEF2E6;
 }
 
 /* > = all the directive divs in the wrapper */
-.wrapper > div{
-  background: white;
+.wrapper>div {
   padding: 1em;
-
-}
-
-/* Every other div in the wrapper has a different shade */
-.wrapper > div:nth-child(odd){
-  background: #ddd;
 }
 
 /* Grid */
@@ -434,22 +414,31 @@ h5 {
 }
 
 .header {
-grid-column: 1/3;
+  grid-column: 1/3;
 }
 
 .filter {
-grid-column: 0/3;
-grid-row: 2/3;
-
+  grid-column: 0/3;
+  grid-row: 3/3;
 }
 
+/* .containerFilter{
+  background-color: #ef672e;
+  border-radius: 1.2em;
+}
+
+.filterContent{
+  padding-left: 1.5em;
+  padding-top: 2em;
+
+} */
 .content {
   grid-column: 2/3;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
 
-.workshopImage{
+.workshopImage {
   width: 80%;
   height: auto;
 }
@@ -458,9 +447,105 @@ grid-row: 2/3;
   font-size: 1vw;
 }
 
+.h1Workshops {
+  font-size: 3vw;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.h2Filter {
+  font-size: 1.8vw;
+  padding-top: 1em;
+}
+
 .h3Workshops {
   font-size: 2.5vw;
 }
 
-@media screen and (min-width: 1020px)
-.wrapper {
+.containerImage {
+  background-color: white;
+}
+
+.containerContent {
+  background: white;
+}
+
+/* Filter button */
+/* Form */
+/* Button used to open the contact form*/
+.open-button2 {
+  background-color: #ef672e;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  /* position: fixed; */
+  position: absolute;
+  bottom: 313px;
+  left: 35px;
+  width: 327px;
+  z-index: 9;
+}
+
+/* The popup form - hidden by default */
+.form-popup2 {
+  display: none;
+  position: absolute;
+  top: 550px;
+  left: 35px;
+
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container2 {
+  max-width: 400px;
+  max-height: 870px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container2 input[type=text], .form-container2 input[type=text] {
+  width: 100%;
+  height: 70%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container2 input[type=checkbox], .form-container2 input[type=checkbox] {
+  /* width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1; */
+}
+
+/* When the inputs get focus, do something */
+.form-container2 input[type=text]:focus, .form-container2 input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container2 input[type=checkbox]:focus, .form-container2 input[type=checkbox]:focus {
+  /* background-color: #ddd;
+  outline: none; */
+}
+
+.checkboxes {
+  padding-bottom: 1em;
+}
+
+/* Give close button a color */
+.form-container2 .cancel2 {
+  background-color: #ef672e;
+}
+
+/* Add some hover effects to buttons */
+.form-container2 .btn2:hover, .open-button2:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1020px) .wrapper {

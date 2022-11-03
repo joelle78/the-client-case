@@ -55,52 +55,124 @@
     <div class="wrapper">
 
       <div class="header">
-        <h1> Agenda</h1>
+        <h1 class="h1Workshops">Agenda</h1>
       </div>
 
+      <!-- Filter -->
       <div class="filter">
-        <p> Hier komt een filter optie</p>
+        <div class="containerFilter">
+          <!-- RESERVEER JE STEKJE FORM -->
+
+          <!-- A button to open the popup form -->
+          <button class="open-button2" onclick="openForm2()">Filter</button>
+          <!-- The form -->
+          <div class="form-popup2" id="myForm2">
+            <form action="/action_page.php" class="form-container2">
+              <label for="email"><b>Zoekopdracht</b></label>
+              <input type="text" placeholder="Zoeken" name="zoeken" required>
+
+              <div class="checkboxes">
+                <input type="checkbox" id="jan" name="januari" value="Januari">
+                <label for="januari"> januari</label><br>
+
+                <input type="checkbox" id="feb" name="februari" value="Februari">
+                <label for="februari"> februari</label><br>
+
+                <input type="checkbox" id="mar" name="maart" value="Maart">
+                <label for="maart"> maart</label><br>
+
+                <input type="checkbox" id="apr" name="april" value="April">
+                <label for="april"> april</label><br>
+
+                <input type="checkbox" id="mei" name="mei" value="Mei">
+                <label for="mei"> mei</label><br>
+
+                <input type="checkbox" id="jun" name="juni" value="Juni">
+                <label for="juni"> juni</label><br>
+
+                <input type="checkbox" id="jul" name="juli" value="Juli">
+                <label for="juli"> juli</label><br>
+
+                <input type="checkbox" id="aug" name="augustus" value="Augustus">
+                <label for="augustus"> augustus</label><br>
+
+                <input type="checkbox" id="sep" name="september" value="September">
+                <label for="september"> september</label><br>
+
+                <input type="checkbox" id="okt" name="oktober" value="Oktober">
+                <label for="oktober"> oktober</label><br>
+
+                <input type="checkbox" id="nov" name="november" value="November">
+                <label for="november"> november</label><br>
+
+                <input type="checkbox" id="dec" name="december" value="December">
+                <label for="december"> december</label><br>
+              </div>
+
+              <button type="button2" class="btn cancel2" onclick="closeForm2()">Close</button>
+            </form>
+          </div>
+        </div>
       </div>
 
       <!-- Maand -->
       <div class="content">
         <div class="">
           <h3 class="h3Workshops">November</h3>
+          <hr>
         </div>
       </div>
 
+
       <!-- Workshop 1 -->
       <div class="content">
-        <img class="workshopImage " src="assets/workshops.jpeg" alt="">
-        <div class="">
-          <h3 class="h3Workshops">Soort workshop</h3>
-          <p class="parWorkshops">Hier komt de content van de workshops</p>
+        <div class="containerImage">
+
+          <img class="workshopImage " src="assets/workshops.jpeg" alt="">
+
+        </div>
+
+        <div class="containerContent">
+          <h3 class="h3Workshops">Maak een zelfvoorzienend ecosysteem</h3>
+          <p class="parWorkshops">Wanneer: 04/11/2022 <br>Hoelaat: 14:30 t/m 16:30</p>
+          <p class="parWorkshops">Dames en heren, haal jullie groene vingers maar vast uit de kast!
+            Ook altijd al een zelfvoorzienend ecosysteem willen maken? Meld je dan nu aan met de link hieronder.</p>
+          <p class="parWorkshops">Meld je hier aan!</p>
         </div>
       </div>
 
       <!-- Workshop 2 -->
       <div class="content">
-        <img class="workshopImage " src="assets/workshops1.jpeg" alt="">
-        <div class="">
-          <h3 class="h3Workshops">Soort workshop</h3>
+        <div class="containerImage">
+          <img class="workshopImage " src="assets/workshops1.jpeg" alt="">
+        </div>
+
+        <div class="containerContent">
+          <h3 class="h3Workshops">Hang a plant</h3>
           <p class="parWorkshops">Hier komt de content van de workshops</p>
         </div>
       </div>
 
       <!-- Workshop 3 -->
       <div class="content">
-        <img class="workshopImage " src="assets/workshop3.png" alt="">
-        <div class="">
-          <h3 class="h3Workshops">Soort workshop</h3>
+        <div class="containerImage">
+          <img class="workshopImage " src="assets/workshop3.png" alt="">
+        </div>
+
+        <div class="containerContent">
+          <h3 class="h3Workshops">Terrarium Therapy</h3>
           <p class="parWorkshops">Hier komt de content van de workshops</p>
         </div>
       </div>
 
       <!-- Workshop 4 -->
       <div class="content">
-        <img class="workshopImage " src="assets/workshop4.jpeg" alt="">
-        <div class="">
-          <h3 class="h3Workshops">Soort workshop</h3>
+        <div class="containerImage">
+          <img class="workshopImage " src="assets/workshop4.jpeg" alt="">
+        </div>
+
+        <div class="containerContent">
+          <h3 class="h3Workshops">Kweken deze weken</h3>
           <p class="parWorkshops">Hier komt de content van de workshops</p>
         </div>
       </div>
@@ -109,37 +181,54 @@
       <div class="content">
         <div class="">
           <h3 class="h3Workshops">December</h3>
+          <hr>
         </div>
       </div>
 
+
+      <!-- Workshop 5 -->
       <div class="content">
-        <img class="workshopImage " src="assets/workshop5.jpeg" alt="">
-        <div class="">
-          <h3 class="h3Workshops">Soort workshop</h3>
+        <div class="containerImage">
+          <img class="workshopImage " src="assets/workshop8.jpeg" alt="">
+        </div>
+
+        <div class="containerContent">
+          <h3 class="h3Workshops">Cut it</h3>
           <p class="parWorkshops">Hier komt de content van de workshops</p>
         </div>
       </div>
 
+      <!-- Workshop 6 -->
       <div class="content">
-        <img class="workshopImage " src="assets/workshop6.png" alt="">
-        <div class="">
-          <h3 class="h3Workshops">Soort workshop</h3>
+        <div class="containerImage">
+          <img class="workshopImage " src="assets/workshop6.png" alt="">
+        </div>
+        <div class="containerContent">
+          <h3 class="h3Workshops">Droogbloemen</h3>
           <p class="parWorkshops">Hier komt de content van de workshops</p>
         </div>
       </div>
 
+      <!-- Workshop 7-->
       <div class="content">
-        <img class="workshopImage " src="assets/plant.png" alt="">
-        <div class="">
-          <h3 class="h3Workshops">Soort workshop</h3>
+        <div class="containerImage">
+          <img class="workshopImage " src="assets/workshop7.jpeg" alt="">
+        </div>
+        <div class="containerContent">
+          <h3 class="h3Workshops">HO HO HO,<br>
+            kerstkransen maken doe je zo</h3>
           <p class="parWorkshops">Hier komt de content van de workshops</p>
         </div>
       </div>
 
+
+      <!-- Workshop 8 -->
       <div class="content">
-        <img class="workshopImage " src="assets/plant.png" alt="">
-        <div class="">
-          <h3 class="h3Workshops">Soort workshop</h3>
+        <div class="containerImage">
+          <img class="workshopImage " src="assets/workshop5.jpeg" alt="">
+        </div>
+        <div class="containerContent">
+          <h3 class="h3Workshops">What is under your christmas tree</h3>
           <p class="parWorkshops">Hier komt de content van de workshops</p>
         </div>
       </div>
@@ -167,3 +256,6 @@
 </body>
 
 </html>
+
+<!-- JS -->
+<script src="styles/script.js"></script>
