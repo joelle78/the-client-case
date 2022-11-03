@@ -428,7 +428,7 @@ h5 {
 /* Grid */
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   grid-gap: 1em;
   justify-items: stretch;
 }
@@ -445,5 +445,10 @@ grid-row: 2/3;
 
 .content {
   grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
 
+.workshopImage{
+  width: 20em;
 }
